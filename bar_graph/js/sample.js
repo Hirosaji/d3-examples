@@ -1,8 +1,10 @@
 // データを格納するための空配列を用意する
 var dataSet = [ ];
 
+var path = location.pathname;
+
 // CSVを読み込んで、データセットに格納する
-d3.csv("mydata.csv", function(error, data){
+d3.csv(path+"/csv/mydata.csv", function(error, data){
   for(var i=1; i<dataSet.length; i++){    // データの行数分だけ繰り返す
     dataSet.push(data[i].item1);          // 'item1'のラベルがついたデータを取り出す
   }

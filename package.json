@@ -1,0 +1,26 @@
+{
+  "name": "train_d3",
+  "version": "1.0.0",
+  "description": "D3.js入門のため、参考書「D3.js徹底入門」に従ってコードを書いています。",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "http-server -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hirosaji/train_d3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hirosaji/train_d3/issues"
+  },
+  "homepage": "https://github.com/Hirosaji/train_d3#readme",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}

@@ -1,0 +1,67 @@
+#quarterBase { 
+	width: 1092px; 
+	height: 300px; 
+}
+#quarterTitle {
+	font-size: 21px;
+}
+/*
+.quarterBaseTip {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	visibility: hidden;
+	overflow: hidden; 
+	color: white; 
+	background-color: gray;
+	font-size: 10px;
+	text-align: center;
+}
+*/
+.lineElement {
+	stroke: rgb(142, 195, 167);
+	fill: none;
+	stroke-width: 2;
+}
+.rectElement {
+	opacity: 0;
+}
+.circleElement {
+	fill: rgb(142, 195, 167);
+	stroke: white;
+	stroke-width: 2;
+}
+.circleElement2 {
+	fill: white;
+	stroke: rgb(142, 195, 167);
+	stroke-width: 2;
+}
+.axis text {
+	font-size: 13px;
+}
+.axis path,
+.axis line {
+	fill: none;
+	stroke: black;
+	shape-rendering: crispEdges;
+}
+.axisRid path {
+	display: none;
+}
+.y--label {
+	font-size: 13px;
+}
+.tick line{ 
+    opacity: 0.4; 
+}
+.quarterBaseTip {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	visibility: hidden;
+	overflow: hidden; 
+	color: white; 
+	background-color: gray;
+	font-size: 10px;
+	text-align: center;
+}

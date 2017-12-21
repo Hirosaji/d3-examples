@@ -1,0 +1,3 @@
+svg { width: 380px; height: 240px; border: 1px solid black; }
+circle { stroke: none; opacity: 0.25; }
+text { font-size: 10pt; text-anchor: middle; fill: black; opacity: 0; }
